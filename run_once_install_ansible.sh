@@ -10,7 +10,7 @@ install_on_ubuntu() {
 }
 
 install_on_arch() {
-    sudo pacman -Syu --noconfirm ansible zsh git starship
+    sudo pacman -Syu --noconfirm ansible zsh git starship neovim openssh bat exa fzf github-cli neofetch zoxide ripgrep fd wget
 }
 
 install_on_mac() {
