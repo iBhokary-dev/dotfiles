@@ -21,8 +21,6 @@
     - name: Install packages
       community.general.pacman:
         name:
-          - starship
-          - git
           - neovim
           - zsh
           - openssh

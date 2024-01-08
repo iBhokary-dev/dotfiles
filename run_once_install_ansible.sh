@@ -6,15 +6,15 @@ install_on_fedora() {
 
 install_on_ubuntu() {
     sudo apt-get update
-    sudo apt-get install -y ansible zsh git
+    sudo apt-get install -y ansible zsh git starship
 }
 
 install_on_arch() {
-    sudo pacman -Syu --noconfirm ansible zsh git 
+    sudo pacman -Syu --noconfirm ansible zsh git starship
 }
 
 install_on_mac() {
-    brew install ansible zsh git 
+    brew install ansible zsh git starship
 }
 
 OS="$(uname -s)"
