@@ -1,0 +1,3 @@
+README.md
+
+private_dot_ssh/** # ignore the contents of backups folder but not the folder itself
