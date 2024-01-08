@@ -19,7 +19,7 @@ export FZF_DEFAULT_OPTS=" \
 
 # Theme and Plugins
 ZSH_THEME="robbyrussell"
-plugins=(aliases tmux colored-man-pages gh vscode git docker golang archlinux)
+plugins=(aliases tmux colored-man-pages gh vscode git docker golang archlinux ansible)
 
 # auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
@@ -43,6 +43,7 @@ alias du="dust"         # Improved 'du' command using 'dust'
 alias ssha="ssh-add ~/.ssh/id_ed25519"  # Add SSH key to agent
 alias ghc="gh copilot"  # Shortcut for GitHub Copilot command
 alias v="nvim"        # Use Neovim instead of Vim
+alias chez="chezmoi"
 
 # Fuzzy Finder Aliases
 alias fzf="fzf --height 40%" # Fuzzy finder with 40% height
