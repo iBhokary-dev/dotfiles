@@ -46,17 +46,13 @@
           - nano
           - neofetch
           - neovim
-          - numb-git
-          - powerline-fonts
           - procs
           - ripgrep
           - sd
           - tealdeer
           - tokei
-          - ttf-meslo-nerd-font-powerlevel10k
           - wget
           - whois
-          - yay
           - zenity
         state: present
 
