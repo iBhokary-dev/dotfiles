@@ -21,7 +21,6 @@
           - neovim
           - zsh
           - openssh
-          - asdf-vm
           - awesome-terminal-fonts
           - bandwhich
           - base
