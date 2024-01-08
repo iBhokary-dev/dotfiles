@@ -6,15 +6,15 @@ install_on_fedora() {
 
 install_on_ubuntu() {
     sudo apt-get update
-    sudo apt-get install -y ansible
+    sudo apt-get install -y ansible zsh
 }
 
 install_on_arch() {
-    sudo pacman -Syu --noconfirm ansible
+    sudo pacman -Syu --noconfirm ansible zsh
 }
 
 install_on_mac() {
-    brew install ansible
+    brew install ansible zsh
 }
 
 OS="$(uname -s)"
