@@ -1,0 +1,24 @@
+pane	dotfiles	0	0	:	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/my-dotfiles	1	zsh	:
+pane	dotfiles	1	0	:	0	lfranca	:/home/ibhokary/.local/share/chezmoi/dot_config/tmux	1	nvim	:nvim .
+pane	dotfiles	3	0	:	0	lfranca	:/home/ibhokary/.ssh	1	zsh	:
+pane	dotfiles	5	0	:	0	lfranca	:/home/ibhokary/.local/share/chezmoi	0	zsh	:
+pane	dotfiles	5	0	:	1	lfranca	:/home/ibhokary	1	zsh	:
+pane	dotfiles	6	0	:-	0	lfranca	:/home/ibhokary/.local/share/chezmoi	1	nvim	:nvim .
+pane	dotfiles	7	1	:*	0	lfranca	:/home/ibhokary	1	zsh	:
+pane	nvimconfig	0	1	:*	0	lfranca	:/home/ibhokary/.config/nvim	1	zsh	:
+pane	projects	0	0	:-	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/portfolioProjects	1	zsh	:
+pane	projects	1	1	:*	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/studyProjects/html-css	1	zsh	:
+pane	stuff	0	0	:-	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/MyNotes	1	zsh	:
+pane	stuff	1	1	:*	0	lfranca	:/home/ibhokary/iBhokary-dev-GH	1	zsh	:
+window	dotfiles	0	:my-env	0	:	5833,126x31,0,0,14	off
+window	dotfiles	1	:tmuxconf	0	:	afff,126x31,0,0,2	off
+window	dotfiles	3	:ssh	0	:	b001,126x31,0,0,4	off
+window	dotfiles	5	:chezmoi folder	0	:	e97c,126x31,0,0{63x31,0,0,11,62x31,64,0,17}	off
+window	dotfiles	6	:chez nvim	0	:-	5834,126x31,0,0,15	off
+window	dotfiles	7	:zsh	1	:*	5837,126x31,0,0,18	:
+window	nvimconfig	0	:zsh	1	:*	b003,126x31,0,0,6	:
+window	projects	0	:portfolio	0	:-	cac4,118x28,0,0,7	off
+window	projects	1	:study	1	:*	cac5,118x28,0,0,8	off
+window	stuff	0	:zsh	0	:-	b006,126x31,0,0,9	:
+window	stuff	1	:zsh	1	:*	582f,126x31,0,0,10	:
+state	dotfiles	

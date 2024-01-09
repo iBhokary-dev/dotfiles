@@ -1,0 +1,17 @@
+pane	dotfiles	1	0	:	0	lfranca	:/home/ibhokary/.config/tmux	1	zsh	:
+pane	dotfiles	3	0	:-	0	lfranca	:/home/ibhokary	1	zsh	:
+pane	dotfiles	5	1	:*	0	lfranca	:/home/ibhokary/.local/share/chezmoi	1	zsh	:
+pane	nvimconfig	0	1	:*	0	lfranca	:/home/ibhokary/.config/nvim	1	zsh	:
+pane	projects	0	0	:-	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/portfolioProjects	1	zsh	:
+pane	projects	1	1	:*	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/studyProjects/html-css	1	zsh	:
+pane	stuff	0	0	:-	0	lfranca	:/home/ibhokary/iBhokary-dev-GH/MyNotes	1	zsh	:
+pane	stuff	1	1	:*	0	lfranca	:/home/ibhokary/iBhokary-dev-GH	1	zsh	:
+window	dotfiles	1	:tmuxconf	0	:	afff,126x31,0,0,2	off
+window	dotfiles	3	:home	0	:-	b001,126x31,0,0,4	off
+window	dotfiles	5	:chezmoi-stuff	1	:*	5830,126x31,0,0,11	off
+window	nvimconfig	0	:zsh	1	:*	b003,126x31,0,0,6	:
+window	projects	0	:portfolio	0	:-	cac4,118x28,0,0,7	off
+window	projects	1	:study	1	:*	cac5,118x28,0,0,8	off
+window	stuff	0	:zsh	0	:-	b006,126x31,0,0,9	:
+window	stuff	1	:zsh	1	:*	582f,126x31,0,0,10	:
+state	dotfiles	
