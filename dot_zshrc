@@ -9,8 +9,7 @@ export PATH="$PATH:/mnt/c/Program Files/Docker/Docker/resources/bin"
 export PATH="$PATH:/mnt/c/ProgramData/DockerDesktop/version-bin"
 export PATH="$PATH:/mnt/c/WINDOWS"
 export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/119.0.2151.72" 
-export EDITOR=nvim
-
+export EDITOR=code
 
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
@@ -32,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 # yay -S exa fd procs sd dust ripgrep tokei hyperfine bottom tealdeer bandwhich grex
 
 # Custom Aliases
-alias zshrc="nvim .zshrc"
+alias zshrc="code .zshrc"
 alias ssc="cd .config && code starship.toml"
 alias ls="exa --icons"  # Improved ls command with icons using 'exa'
 alias cls="clear"       # Clear screen command
