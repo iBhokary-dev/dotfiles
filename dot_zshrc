@@ -8,7 +8,7 @@ export PATH="$PATH:/mnt/c/Users/lucas/AppData/Local/Programs/Microsoft VS Code/b
 export PATH="$PATH:/mnt/c/Program Files/Docker/Docker/resources/bin"
 export PATH="$PATH:/mnt/c/ProgramData/DockerDesktop/version-bin"
 export PATH="$PATH:/mnt/c/WINDOWS"
-export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/119.0.2151.72" 
+export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/120.0.2210.133" 
 export EDITOR=code
 
 export FZF_DEFAULT_OPTS=" \
