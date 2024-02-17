@@ -11,8 +11,16 @@ export PATH="$PATH:/mnt/c/WINDOWS"
 export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/120.0.2210.133" 
 export EDITOR=code
 
-export FZF_DEFAULT_OPTS="--height 60% --preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f --strip-cwd-prefix --hidden --follow --exclude .git"
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
+  --color='hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00' \
+  --color='prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf' \
+  --color='border:#262626,label:#aeaeae,query:#d9d9d9' \
+  --border=rounded --border-label=ZED --border-label-pos=0 --preview-window=border-rounded \
+  --prompt='> ' --marker='>' --pointer='◆' --separator='─' \
+  --scrollbar='│' --info=right \
+  --height 60% --multi --preview='bat --color=always {}'"
+
 source /usr/share/fzf
 
 # Theme and Plugins
