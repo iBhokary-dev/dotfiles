@@ -11,10 +11,13 @@ export PATH="$PATH:/mnt/c/WINDOWS"
 export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/120.0.2210.133" 
 export EDITOR=code
 
-export FZF_DEFAULT_OPTS=" \
---color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
---color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
---color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}'"
+export FZF_DEFAULT_COMMAND="fd --type f"
+
+#export FZF_DEFAULT_OPTS=" \
+#--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+#--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+#--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 
 # Theme and Plugins
 ZSH_THEME="robbyrussell"
