@@ -12,7 +12,8 @@ export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/120.0.2
 export EDITOR=code
 
 export FZF_DEFAULT_OPTS="--height 60% --preview 'bat --color=always {}'"
-export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_DEFAULT_COMMAND="fd --type f --strip-cwd-prefix --hidden --follow --exclude .git"
+source /usr/share/fzf
 
 # Theme and Plugins
 ZSH_THEME="robbyrussell"
@@ -46,7 +47,7 @@ alias chez="chezmoi"    # Uuse chez instead of chezmoi
 #alias fzf="fzf --height 40%" # Fuzzy finder with 40% height
 #alias fzfm="fzf --height 40% --multi" # Fuzzy finder with 40% height and multi select
 #alias nfzf="fzf | xargs nvim" # Fuzzy finder with Neovim
-#alias cfzf="fzf | xargs code" # Fuzzy finder with VSCode
+alias cfzf="fzf | xargs code" # Fuzzy finder with VSCode
 
 # Zinit Installation Check
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
