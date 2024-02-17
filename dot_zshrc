@@ -11,10 +11,8 @@ export PATH="$PATH:/mnt/c/WINDOWS"
 export PATH="$PATH:/mnt/c/Program Files (x86)/Microsoft/Edge/Application/120.0.2210.133" 
 export EDITOR=code
 
-export FZF_DEFAULT_OPTS=" \
---color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
---color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
---color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+export FZF_DEFAULT_OPTS="--height 60% --preview 'bat --color=always {}'"
+export FZF_DEFAULT_COMMAND="fd --type f"
 
 # Theme and Plugins
 ZSH_THEME="robbyrussell"
@@ -45,10 +43,10 @@ alias v="nvim"          # Use Neovim instead of Vim
 alias chez="chezmoi"    # Uuse chez instead of chezmoi
 
 # Fuzzy Finder Aliases
-alias fzf="fzf --height 40%" # Fuzzy finder with 40% height
-alias fzfm="fzf --height 40% --multi" # Fuzzy finder with 40% height and multi select
-alias nfzf="fzf | xargs nvim" # Fuzzy finder with Neovim
-alias cfzf="fzf | xargs code" # Fuzzy finder with VSCode
+#alias fzf="fzf --height 40%" # Fuzzy finder with 40% height
+#alias fzfm="fzf --height 40% --multi" # Fuzzy finder with 40% height and multi select
+#alias nfzf="fzf | xargs nvim" # Fuzzy finder with Neovim
+#alias cfzf="fzf | xargs code" # Fuzzy finder with VSCode
 
 # Zinit Installation Check
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
