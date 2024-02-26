@@ -54,6 +54,7 @@
           - wget
           - whois
           - zenity
+          - navi
         state: present
 
     

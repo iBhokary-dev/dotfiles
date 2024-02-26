@@ -7,4 +7,4 @@ sudo pacman -S --needed git base-devel
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
 
 # Install asdf using yay 
-yay -S asdf-vm
+sudo pacman -S asdf-vm
