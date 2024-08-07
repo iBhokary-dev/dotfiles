@@ -1,0 +1,33 @@
+pane	4	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	6	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	7	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	8	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	dotfiles	0	0	:	0	lfranca	:/home/zed	1	zsh	:
+pane	dotfiles	1	0	:-	0	lfranca	:/home/zed/.local/share/chezmoi/dot_config/tmux	1	zsh	:
+pane	dotfiles	2	0	:	0	Win11	:/home/zed	1	zsh	:
+pane	dotfiles	3	0	:	0	lfranca	:/home/zed/.ssh	1	zsh	:
+pane	dotfiles	5	1	:*	0	lfranca	:/home/zed/.local/share/chezmoi	1	zsh	:
+pane	projects	0	0	:	0	lfranca	:/home/zed/projects/portfolio	1	zsh	:
+pane	projects	1	1	:*	0	lfranca	:/home/zed/projects/study	1	zsh	:
+pane	projects	2	0	:	0	Win11	:/home/zed/projects/forks/ohmyzsh/plugins	1	zsh	:
+pane	projects	3	0	:-	0	Win11	:/home/zed/projects/MyReadme/iBhokary-dev	1	zsh	:
+pane	projects	4	0	:	0	lfranca	:/home/zed/projects/MyNotes	1	zsh	:
+pane	stuff	0	0	:-	0	lfranca	:/home/zed/stuff	1	zsh	:
+pane	stuff	1	1	:*	0	lfranca	:/home/zed/.config/tmux	1	zsh	:
+window	4	0	:zsh	1	:*	59f5,125x32,0,0,16	:
+window	6	0	:zsh	1	:*	59f7,125x32,0,0,18	:
+window	7	0	:zsh	1	:*	65b8,120x29,0,0,19	:
+window	8	0	:zsh	1	:*	e5af,120x29,0,0,20	:
+window	dotfiles	0	:my-env	0	:	b37e,125x32,0,0,1	off
+window	dotfiles	1	:tmuxconf	0	:-	b37f,125x32,0,0,2	off
+window	dotfiles	2	:zsh	0	:	b380,125x32,0,0,3	:
+window	dotfiles	3	:ssh	0	:	b381,125x32,0,0,4	off
+window	dotfiles	5	:chezmoi folder	1	:*	b382,125x32,0,0,5	off
+window	projects	0	:portfolio	0	:	b386,125x32,0,0,9	off
+window	projects	1	:study	1	:*	59ef,125x32,0,0,10	off
+window	projects	2	:forks	0	:	59f0,125x32,0,0,11	off
+window	projects	3	:MyReadme	0	:-	59f1,125x32,0,0,12	off
+window	projects	4	:MyNotes	0	:	65b2,120x29,0,0,13	off
+window	stuff	0	:zsh	0	:-	59f3,125x32,0,0,14	:
+window	stuff	1	:zsh	1	:*	59f4,125x32,0,0,15	:
+state	8	

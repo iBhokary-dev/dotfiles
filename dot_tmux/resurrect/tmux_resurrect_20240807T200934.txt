@@ -1,0 +1,25 @@
+pane	dotfiles	0	0	:	0	lfranca	:/home/zed	1	zsh	:
+pane	dotfiles	1	1	:*	0	lfranca	:/home/zed/.local/share/chezmoi/dot_config/tmux	1	zsh	:
+pane	dotfiles	2	0	:	0	Win11	:/home/zed	1	zsh	:
+pane	dotfiles	3	0	:	0	lfranca	:/home/zed/.ssh	1	zsh	:
+pane	dotfiles	5	0	:-	0	lfranca	:/home/zed/.local/share/chezmoi	1	zsh	:
+pane	projects	0	0	:	0	lfranca	:/home/zed	1	zsh	:
+pane	projects	1	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	projects	2	0	:	0	Win11	:/home/zed	1	zsh	:
+pane	projects	3	0	:-	0	Win11	:/home/zed	1	zsh	:
+pane	stuff	0	1	:*	0	lfranca	:/home/zed/.config/tmux	1	zsh	:
+pane	stuff	1	0	:	0	lfranca	:/home/zed	1	zsh	:
+pane	stuff	2	0	:-	0	lfranca	:/home/zed	1	zsh	:
+window	dotfiles	0	:my-env	0	:	b37e,125x32,0,0,1	off
+window	dotfiles	1	:tmuxconf	1	:*	b37f,125x32,0,0,2	off
+window	dotfiles	2	:zsh	0	:	b380,125x32,0,0,3	:
+window	dotfiles	3	:ssh	0	:	b381,125x32,0,0,4	off
+window	dotfiles	5	:chezmoi folder	0	:-	b382,125x32,0,0,5	off
+window	projects	0	:portfolio	0	:	b383,125x32,0,0,6	off
+window	projects	1	:study	1	:*	b384,125x32,0,0,7	off
+window	projects	2	:forks	0	:	b385,125x32,0,0,8	off
+window	projects	3	:MyReadme	0	:-	b386,125x32,0,0,9	off
+window	stuff	0	:zsh	1	:*	59ef,125x32,0,0,10	:
+window	stuff	1	:zsh	0	:	59f0,125x32,0,0,11	:
+window	stuff	2	:zsh	0	:-	59f1,125x32,0,0,12	:
+state	dotfiles	stuff
