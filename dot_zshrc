@@ -25,7 +25,7 @@ source /usr/share/fzf
 
 # Theme and Plugins
 ZSH_THEME="robbyrussell"
-plugins=(aliases tmux colored-man-pages gh vscode git docker golang archlinux ansible)
+plugins=(aliases tmux colored-man-pages gh vscode git docker golang archlinux ansible fd)
 
 # auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
