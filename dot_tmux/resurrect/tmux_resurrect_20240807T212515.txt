@@ -1,0 +1,25 @@
+pane	dotfiles	0	0	:	0	lfranca	:/home/zed	1	zsh	:
+pane	dotfiles	1	0	:	0	lfranca	:/home/zed/.local/share/chezmoi/dot_config/tmux	1	zsh	:
+pane	dotfiles	2	0	:	0	Win11	:/home/zed	1	zsh	:
+pane	dotfiles	3	0	:	0	lfranca	:/home/zed/.ssh	1	zsh	:
+pane	dotfiles	4	0	:-	0	lfranca	:/home/zed	1	zsh	:
+pane	dotfiles	5	1	:*	0	lfranca	:/home/zed/.local/share/chezmoi	1	zsh	:
+pane	projects	0	0	:	0	lfranca	:/home/zed/projects/portfolio	1	zsh	:
+pane	projects	1	0	:	0	lfranca	:/home/zed/projects/study/EW-js-study/chapter-01	1	zsh	:
+pane	projects	2	0	:-	0	Win11	:/home/zed/projects/forks	1	zsh	:
+pane	projects	3	1	:*	0	Win11	:/home/zed/projects/MyReadme/iBhokary-dev	1	zsh	:
+pane	stuff	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	stuff	1	0	:-	0	lfranca	:/home/zed	1	zsh	:
+window	dotfiles	0	:my-env	0	:	b37e,125x32,0,0,1	off
+window	dotfiles	1	:tmuxconf	0	:	b37f,125x32,0,0,2	off
+window	dotfiles	2	:zsh	0	:	b380,125x32,0,0,3	:
+window	dotfiles	3	:ssh	0	:	b381,125x32,0,0,4	off
+window	dotfiles	4	:zsh	0	:-	5dd1,134x34,0,0,12	:
+window	dotfiles	5	:chezmoi folder	1	:*	bb42,134x34,0,0,5	off
+window	projects	0	:portfolio	0	:	b383,125x32,0,0,6	off
+window	projects	1	:study	0	:	b384,125x32,0,0,7	off
+window	projects	2	:forks	0	:-	b385,125x32,0,0,8	off
+window	projects	3	:MyReadme	1	:*	b386,125x32,0,0,9	off
+window	stuff	0	:zsh	1	:*	5dcf,134x34,0,0,10	:
+window	stuff	1	:zsh	0	:-	5dd0,134x34,0,0,11	:
+state	dotfiles	stuff
