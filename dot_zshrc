@@ -55,6 +55,7 @@ alias chez="chezmoi"    # Uuse chez instead of chezmoi
 #alias fzf="fzf --height 40%" # Fuzzy finder with 40% height
 #alias fzfm="fzf --height 40% --multi" # Fuzzy finder with 40% height and multi select
 #alias nfzf="fzf | xargs nvim" # Fuzzy finder with Neovim
+alias fzf='cd "$(fzf)"'
 alias cfzf="fzf | xargs code" # Fuzzy finder with VSCode
 
 # Zinit Installation Check
