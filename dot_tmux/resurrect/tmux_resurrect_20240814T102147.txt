@@ -1,0 +1,17 @@
+pane	dotfiles	0	0	:-	0	lfranca	:/home/zed/.local/share/chezmoi	1	zsh	:
+pane	dotfiles	1	1	:*	0	lfranca	:/home/zed/.local/share/chezmoi/dot_config/tmux	1	zsh	:
+pane	projects	0	0	:-	0	lfranca	:/home/zed/projects/forks	1	zsh	:
+pane	projects	1	0	:	0	lfranca	:/home/zed/projects/portfolio	1	zsh	:
+pane	projects	2	1	:*	0	lfranca	:/home/zed/projects/study/branas-pilot\ (deleted)	1	zsh	:
+pane	study	0	1	:*	0	lfranca	:/home/zed/study/study-notes/courses/RB-Academy/lectures/Hello-World-LC/lesson-01	1	zsh	:
+pane	stuff	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	testing	0	1	:*	0	lfranca	:/home/zed/testing	1	zsh	:
+window	dotfiles	0	:chez	0	:-	c6fe,120x28,0,0,1	off
+window	dotfiles	1	:tmux	1	:*	c6ff,120x28,0,0,2	off
+window	projects	0	:forks	0	:-	c700,120x28,0,0,3	off
+window	projects	1	:portf	0	:	c701,120x28,0,0,4	off
+window	projects	2	:study	1	:*	b382,125x32,0,0,5	off
+window	study	0	:zsh	1	:*	b385,125x32,0,0,8	:
+window	stuff	0	:zsh	1	:*	bb43,134x34,0,0,6	:
+window	testing	0	:zsh	1	:*	c704,120x28,0,0,7	:
+state	study	projects

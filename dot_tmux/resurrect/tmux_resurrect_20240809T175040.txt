@@ -1,0 +1,15 @@
+pane	dotfiles	0	0	:-	0	lfranca	:/home/zed/.local/share/chezmoi	1	zsh	:
+pane	dotfiles	1	1	:*	0	lfranca	:/home/zed/.local/share/chezmoi/dot_config/tmux	1	zsh	:
+pane	projects	0	1	:*	0	lfranca	:/home/zed/projects/forks	1	zsh	:
+pane	projects	1	0	:-	0	lfranca	:/home/zed/projects/portfolio	1	zsh	:
+pane	projects	2	0	:	0	lfranca	:/home/zed/projects/study	1	zsh	:
+pane	stuff	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	testing	0	1	:*	0	lfranca	:/home/zed/testing	1	zsh	:
+window	dotfiles	0	:chez	0	:-	bb3e,134x34,0,0,1	off
+window	dotfiles	1	:tmux	1	:*	cc02,145x38,0,0,5	off
+window	projects	0	:forks	1	:*	acff,128x30,0,0,2	off
+window	projects	1	:portf	0	:-	ad03,128x30,0,0,6	off
+window	projects	2	:study	0	:	ad04,128x30,0,0,7	off
+window	stuff	0	:zsh	1	:*	ad00,128x30,0,0,3	:
+window	testing	0	:zsh	1	:*	ad01,128x30,0,0,4	:
+state	dotfiles	stuff
