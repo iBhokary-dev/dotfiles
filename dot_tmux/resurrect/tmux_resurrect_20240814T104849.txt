@@ -1,0 +1,21 @@
+pane	dotfiles	0	1	:*	0	lfranca	:/home/zed/.local/share/chezmoi	1	zsh	:
+pane	dotfiles	1	0	:-	0	lfranca	:/home/zed/.local/share/chezmoi/dot_config/tmux	1	zsh	:
+pane	projects	0	0	:-	0	lfranca	:/home/zed/projects/forks	1	zsh	:
+pane	projects	1	0	:	0	lfranca	:/home/zed/projects/portfolio	1	zsh	:
+pane	projects	2	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	study	0	1	:*	0	lfranca	:/home/zed/study/study-notes/courses/RB-Academy/lectures/Hello-World-LC	1	zsh	:
+pane	study	1	0	:-	0	lfranca	:/home/zed/study/study-notes/courses/EW-Academy/lectures	1	zsh	:
+pane	study	2	0	:	0	lfranca	:/home/zed/study/study-notes	1	zsh	:
+pane	stuff	0	1	:*	0	lfranca	:/home/zed	1	zsh	:
+pane	testing	0	1	:*	0	lfranca	:/home/zed/testing	1	zsh	:
+window	dotfiles	0	:chez	1	:*	acbe,118x30,0,0,1	off
+window	dotfiles	1	:tmux	0	:-	acbf,118x30,0,0,2	off
+window	projects	0	:forks	0	:-	acc0,118x30,0,0,3	off
+window	projects	1	:portf	0	:	acc1,118x30,0,0,4	off
+window	projects	2	:study	1	:*	acc2,118x30,0,0,5	off
+window	study	0	:RB	1	:*	acc3,118x30,0,0,6	off
+window	study	1	:EW	0	:-	acc4,118x30,0,0,7	off
+window	study	2	:zsh	0	:	acc5,118x30,0,0,8	:
+window	stuff	0	:zsh	1	:*	acc6,118x30,0,0,9	:
+window	testing	0	:zsh	1	:*	568f,118x30,0,0,10	:
+state	study	dotfiles
