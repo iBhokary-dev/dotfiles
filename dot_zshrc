@@ -56,6 +56,8 @@ alias chez="chezmoi"    # Uuse chez instead of chezmoi
 #alias fzfm="fzf --height 40% --multi" # Fuzzy finder with 40% height and multi select
 #alias nfzf="fzf | xargs nvim" # Fuzzy finder with Neovim
 alias cfzf="fzf | xargs code" # Fuzzy finder with VSCode
+alias cdf='cd $(find ${1:-.} -type d | fzf)' # Fuzzy finder for directories
+
 
 # Zinit Installation Check
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
